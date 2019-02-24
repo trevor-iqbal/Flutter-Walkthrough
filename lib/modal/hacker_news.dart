@@ -24,6 +24,8 @@ class _HackerNewsState extends State<HackerNews> {
   }
   Widget helper(List future){
     return ListView(
+          shrinkWrap: true,
+          primary: false,
           children: future.map((i)=>
             FutureBuilder<Article>(
               future: _getArticle(i),
@@ -59,7 +61,8 @@ class _HackerNewsState extends State<HackerNews> {
             ),
           ];
         },
-          body: FutureBuilder(
+          body: 
+          FutureBuilder(
               future: parseTopStoriesFuture(),
               builder: (context, snapshot) {
                 if (!snapshot.hasData)
