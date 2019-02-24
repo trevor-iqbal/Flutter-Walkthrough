@@ -20,3 +20,7 @@ This was written to help me to make my grip strong on flutter, as it's an open s
 - [FutureBuilder](https://docs.flutter.io/flutter/widgets/FutureBuilder-class.html) Widget
 
 If you spot an error, feel free to file an issue report.
+
+## API Sources
+- [EarthQuakes](https://earthquake.usgs.gov/)
+- [HackerNews](https://github.com/HackerNews)
