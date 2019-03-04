@@ -25,7 +25,7 @@ before_deploy:
   deploy:
   provider: releases
   api_key:
-    secure: LhyWuOKZSylNfreK-ebOMA
+    secure: "LhyWuOKZSylNfreK-ebOMA"
   file: build/ios/iphoneos/app.ipa
   skip_cleanup: true #important or your built app would be deleted
   on:
