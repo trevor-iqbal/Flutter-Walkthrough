@@ -34,7 +34,7 @@ void main(){
         final storyUrl = 'https://hacker-news.firebaseio.com/v0/item/${idList.first}.json';
         final storyRes = await http.get(storyUrl);
         if(res.statusCode == 200){
-          expect(parseArticleTestCase(storyRes.body).by, "tethys");
+          expect(parseArticleTestCase(storyRes.body).by, "vetelko");
         }
       }
     }
